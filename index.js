@@ -2,7 +2,7 @@ const express=require('express')
 const app=express()
 const {chats} =require('./data')
 
-const port=process.env.PORT || 5000
+const port=process.env.PORT || 3000
 app.get('/',(req,res)=>{
     res.send("All work is working well")
 })
