@@ -4,8 +4,8 @@ const {chats} =require('./data')
 
 const port=process.env.PORT || 3000
 app.get('/',(req,res)=>{
-    res.send("All work is working well")
-    res.send("updated the root page")
+    res.send("All work is working well and working")
+  
 })
 app.get('/api/chats',(req,res)=>{
    res.send(chats)
